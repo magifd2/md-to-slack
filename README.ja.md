@@ -24,7 +24,7 @@
 ## インストール
 
 1.  Node.jsとnpmがインストールされていることを確認してください。
-2.  このリポジトリをクローンするか、`md-to-slack-block-kit.js` ファイルをダウンロードしてください。
+2.  このリポジトリをクローンするか、`md-to-slack.js` ファイルをダウンロードしてください。
 3.  依存関係をインストールします。
 
     ```bash
@@ -91,7 +91,7 @@ npm test
     または、プロジェクトディレクトリから直接実行することもできます。
 
     ```bash
-    node md-to-slack-block-kit.js your_markdown_file.md
+    node md-to-slack.js your_markdown_file.md
     ```
 
 4.  **ツールの更新:**

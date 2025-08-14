@@ -155,7 +155,7 @@ EXPECTED_JSON='''{
 }'''
 
 # Run the script and capture its output
-ACTUAL_JSON=$(node md-to-slack-block-kit.js testfile.md)
+ACTUAL_JSON=$(node md-to-slack.js testfile.md)
 
 # Compare the output
 if diff -u <(echo "$EXPECTED_JSON") <(echo "$ACTUAL_JSON"); then

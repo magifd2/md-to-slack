@@ -91,7 +91,7 @@ Since this tool is not published to npm, you can distribute it to your stakehold
     Alternatively, you can run it directly from the project directory:
 
     ```bash
-    node md-to-slack-block-kit.js your_markdown_file.md
+    node md-to-slack.js your_markdown_file.md
     ```
 
 4.  **Updating the tool:**

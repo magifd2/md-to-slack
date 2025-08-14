@@ -266,7 +266,7 @@ Arguments:
 
 Examples:
   cat your_markdown_file.md | node md-to-slack-block-kit.js
-  node md-to-slack-block-kit.js your_markdown_file.md
+  md-to-slack your_markdown_file.md
 `);
         process.exit(0);
     }

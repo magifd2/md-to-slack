@@ -4,7 +4,7 @@
   "description": "A tool to convert Markdown to Slack Block Kit JSON.",
   "main": "md-to-slack-block-kit.js",
   "bin": {
-    "md-to-slack": "./md-to-slack-block-kit.js"
+    "md-to-slack": "./md-to-slack.js"
   },
   "scripts": {
     "test": "./test.sh"
