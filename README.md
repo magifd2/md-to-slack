@@ -1,4 +1,4 @@
-# Markdown to Slack Converter
+# Markdown to Slack Block Kit Converter
 
 This tool converts Markdown text into Slack Block Kit JSON, suitable for use with the Slack API.
 
