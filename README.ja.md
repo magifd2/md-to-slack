@@ -106,3 +106,9 @@ npm test
 ## ライセンス
 
 [MIT License](LICENSE)
+
+## 謝辞
+
+本ツールの実装は、以下のQiita記事の知見に大きく助けられました。
+
+- [MarkdownをSlackのBlock Kitに変換する](https://qiita.com/yhatt/items/ebe892f341ce03d6d23f)

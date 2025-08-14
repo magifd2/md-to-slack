@@ -106,3 +106,9 @@ Since this tool is not published to npm, you can distribute it to your stakehold
 ## License
 
 [MIT License](LICENSE)
+
+## Acknowledgements
+
+This tool's implementation was greatly aided by the insights from the following Qiita article:
+
+- [MarkdownをSlackのBlock Kitに変換する](https://qiita.com/yhatt/items/ebe892f341ce03d6d23f)
