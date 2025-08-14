@@ -1,0 +1,27 @@
+{
+  "name": "md-to-slack",
+  "version": "1.0.0",
+  "description": "A tool to convert Markdown to Slack Block Kit JSON.",
+  "main": "md-to-slack-block-kit.js",
+  "bin": {
+    "md-to-slack": "./md-to-slack-block-kit.js"
+  },
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "keywords": [
+    "markdown",
+    "slack",
+    "block-kit",
+    "cli"
+  ],
+  "author": "magifd2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magifd2/md-to-slack-block-kit.git"
+  },
+  "dependencies": {
+    "marked": "^16.1.2"
+  }
+}
