@@ -1,21 +1,21 @@
-# Slack通知
+# Slack Notification
 
-こんにちは、**山田さん**！
+Hello, **Yamada-san**!
 
-> これは重要な通知です。
-> `release-v1.2.3` がデプロイされました。
+> This is an important notification.
+> `release-v1.2.3` has been deployed.
 
-## 変更点
+## Changes
 
-- [x] 新機能Aの追加
-- [ ] バグBの修正
-  - ネストされた項目
-- 詳細は[こちら](https://example.com)を参照してください。
+- [x] Added new feature A
+- [ ] Fixed bug B
+  - Nested item
+- See [here](https://example.com) for details.
 
-| 機能 | ステータス |
+| Feature | Status |
 |:---|:---:|
-| ログイン | ✅ |
-| 投稿 | 進行中 |
+| Login | ✅ |
+| Post | In Progress |
 
 ---
 

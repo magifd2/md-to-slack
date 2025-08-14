@@ -7,7 +7,7 @@ EXPECTED_JSON='''{
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "Slack通知",
+        "text": "Slack Notification",
         "emoji": true
       }
     },
@@ -15,21 +15,21 @@ EXPECTED_JSON='''{
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "こんにちは、*山田さん*！"
+        "text": "Hello, *Yamada-san*!"
       }
     },
     {
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "> これは重要な通知です。\n> `release-v1.2.3` がデプロイされました。"
+        "text": "> This is an important notification.\n> `release-v1.2.3` has been deployed."
       }
     },
     {
       "type": "header",
       "text": {
         "type": "plain_text",
-        "text": "変更点",
+        "text": "Changes",
         "emoji": true
       }
     },
@@ -37,7 +37,7 @@ EXPECTED_JSON='''{
       "type": "section",
       "text": {
         "type": "mrkdwn",
-        "text": "• 新機能Aの追加\n• バグBの修正\n  • ネストされた項目\n• 詳細は<https://example.com|こちら>を参照してください。"
+        "text": "• Added new feature A\n• Fixed bug B\n  • Nested item\n• See <https://example.com|here> for details."
       }
     },
     {
@@ -52,7 +52,7 @@ EXPECTED_JSON='''{
                 "elements": [
                   {
                     "type": "text",
-                    "text": "機能",
+                    "text": "Feature",
                     "style": {
                       "bold": true
                     }
@@ -69,7 +69,7 @@ EXPECTED_JSON='''{
                 "elements": [
                   {
                     "type": "text",
-                    "text": "ステータス",
+                    "text": "Status",
                     "style": {
                       "bold": true
                     }
@@ -88,7 +88,7 @@ EXPECTED_JSON='''{
                 "elements": [
                   {
                     "type": "text",
-                    "text": "ログイン"
+                    "text": "Login"
                   }
                 ]
               }
@@ -118,7 +118,7 @@ EXPECTED_JSON='''{
                 "elements": [
                   {
                     "type": "text",
-                    "text": "投稿"
+                    "text": "Post"
                   }
                 ]
               }
@@ -132,7 +132,7 @@ EXPECTED_JSON='''{
                 "elements": [
                   {
                     "type": "text",
-                    "text": "進行中"
+                    "text": "In Progress"
                   }
                 ]
               }
